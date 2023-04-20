@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="/static/style.css"/>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300,200' rel='stylesheet' type='text/css'>
+<link href="/static/css/font-awesome.min.css" rel="stylesheet" media="screen">
+<link href="/static/css/responsive.css" rel="stylesheet" media="screen" type="text/css"/>
+<link rel="stylesheet" href="/static/sidr/stylesheets/jquery.sidr.dark.css">
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/sidr/jquery.sidr.min.js"></script>
+<script type="text/javascript" src="/static/js/smoothscroll.js"></script>
+<style>
+.one,.two,.three,.four{
+width: 25%;
+height: 150px;
+float: left;
+box-sizing: border-box;
+}
+
+.feature_one,.feature_two{
+width: 50%;
+height: 150px;
+float: left;
+box-sizing: border-box;
+color: #FFF;
+	font-size: 17px;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 120px;
+	text-align: center;
+}
+
+</style>
+</head>
+<body>
+	<div class="header">
+    	<div class="container">
+    		<div class="logo-menu">
+        		<div class="logo">
+            		<h1><a href="#">Ovarian Cancer Prediction</a></h1>
+            	</div>
+                <!--<a id="simple-menu" href="#sidr">Toggle menu</a>-->
+                <div id="mobile-header">
+<a class="responsive-menu-button" href="#"><img src="/static/images/11.png"/></a>
+</div>
+            	<div class="menu" id="navigation">
+            		<ul>
+                    	<li><a href="#">Home</a></li>
+                        <li><a href="#predict">Predict</a></li>
+                        <li><a href="#result">Result</a></li>
+                    </ul>
+            	</div>
+        	</div>
+        </div>
+    </div>
+    
+    <div class="banner">
+    	<div class="container">
+        	<div class="header-text">
+                <h2>Laboratory Tests based Early-stage Ovarian Cancer Prediction</h2>
+                <p class="small-text"></p>
+                <div class="button-section">
+                	<ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="color-border">
+    </div>
+
+    <div class="contact" id="predict">
+    	<div class="container">
+        	<h3 class="text-head"> Early-stage Ovarian Cancer Prediction</h3>
+            <p class="box-desc">Missing values please leave blank. This model is tolerant of missing values. Note that more accurate predictions might be expected only when sufficient lab test items are provided. </p>
+            	<div class="contact-section">
+
+                		<form name = "predict" method="POST">
+                        <div class="one"> Age  []:<input style="width:80%" name="Age" type ="text" value="53" /> </div>
+                        <div class="two"> D-dimer  [ug/mL]: <input style="width:80%" name="D-dimer" type ="text" value="5" /> </div>
+                        <div class="three"> LDH  [U/L]:<input style="width:80%" name="LDH" type ="text" value="249" /> </div>
+                        <div class="four"> TTE  [ng/mL]: <input style="width:80%" name="TTE" type ="text" value="0.9" /> </div>
+                        <div class="one"> CA125  [U/mL]: <input style="width:80%" name="CA125" type ="text" value="595.7" /> </div>
+                        <div class="two"> HE-4  [pmol/L]:<input style="width:80%" name="HE-4" type ="text" value="367.1" /> </div>
+                        <div class="three"> FSH  [mIU/ml]:<input style="width:80%" name="FSH" type ="text" value="16.8" /> </div>
+                        <div class="four"> ESR  [mm/H]: <input style="width:80%" name="ESR" type ="text" value="0.9" /> </div>
+                        <div class="one"> CA15-3  [U/mL]: <input style="width:80%" name="CA15-3" type ="text" value="36.7" /> </div>
+                        <div class="two"> FIB  [g/L]:<input style="width:80%" name="FIB" type ="text" value="4.2" /> </div>
+                        <div class="three"> PCT  [ng/mL]:<input style="width:80%" name="PCT" type ="text" value="0.11" /> </div>
+                        <div class="four"> A/G    [ratio] : <input style="width:80%" name="AG" type ="text" value="1.2" /> </div>
+                        <div class="one"> LYMPH  [%]: <input style="width:80%" name="LYMPH" type ="text" value="22.3" /> </div>
+                        <div class="two"> CRP  [mg/L]:<input style="width:80%" name="CRP" type ="text" value="27.1" /> </div>
+                        <div class="three">   AFP  [IU/mL]:<input style="width:80%" name="AFP" type ="text" value="2.5" /> </div>
+                        <div class="four"> HDL  [mmol/L]: <input style="width:80%" name="HDL" type ="text" value="1" /> </div>
+                        <div class="one">   ALB  [g/L]: <input style="width:80%" name="ALB" type ="text" value="37.8" /> </div>
+                        <div class="two"> CA72-4  [U/mL] :<input style="width:80%" name="CA72-4" type ="text" value="11.4" /> </div>
+                        <div class="three">   AT    [%]:<input style="width:80%" name="AT" type ="text" value="91" /> </div>
+                        <div class="four"> NEUT  [%]: <input style="width:80%" name="NEUT" type ="text" value="68" /> </div>
+                        <p align="center"> <input id="send" class="top-button green" style="width:30% " type ="button" value="Predict" onclick=send1() /> </p>
+                        </form>
+
+                        <script language=javascript>
+                            function send1()
+                            {
+                            document.getElementById('send')
+                            document.predict.action="/getdelay"
+                            document.predict.submit()
+                            }
+                        </script>
+            	</div>
+        </div>
+    </div>
+
+    <div class="color-border">
+    </div>
+
+
+    <div class="color-border">
+    </div>
+    <div class="footer">
+        	<div class="container">
+            	<div class="infooter">
+                <p class="copyright" style="color:#FFF; font-size: 16px;line-height:20px;text-align:justify">Disclaimer: This tool is developed and validated based on the data of three cohorts (with 2000+ positive cases vs. 10000+ controls) from hospitals in China: Sun Yat-sen University Cancer Center (SYSUCC), Tongji Hospital of Huazhong University of Science & Technology (TJH) and Women's Hospital of Zhejiang University (WHZJU). The internally validated AUC (TJH cohort) was 0.951 while the AUCs on the independent cohorts (SYSUCC & WHZJU) were respectively 0.885 and 0.882, indicating good discriminative ability. This model was developed based a multi-classifiers fusion methodology [1]. Other investigators are invited to share their data in order to further improve the generalization capability of the current model. The model should only be used to support clinical judgment by health care professionals as a complementary tool for screening early-stage ovarian cancer (OC) with laboratory tests. Any responsibility for using this model and its results will rest solely by the health care professional using the model. Using it you should understand and agree that this site is not responsible or liable for any claim, loss, or damage resulting from its use. While we try to keep the information on the site as accurate as possible, we disclaim any warranty concerning its accuracy, timeliness, and completeness, and any other warranty, express or implied, including warranties of merchantability or fitness for a particular purpose.</p>
+                    <p class="copyright" style="color:#FFF; font-size: 14px;line-height:20px;text-align:justify">[1] Q He, X Li, DWN Kim, X Jia, X Gu, X Zhen, L Zhou: Feasibility study of a multi-criteria decision-making based hierarchical model for multi-modality feature and multi-classifier fusion: Applications in medical prognosis prediction. Information Fusion 2020, 55:207-219.<a target="_blank" style="color:#FFF" href="https://doi.org/10.1016/j.inffus.2019.09.001">(https://doi.org/10.1016/j.inffus.2019.09.001)</a></p>
+                </div>
+            <ul class="socialmedia">
+                <li><a href=""><i class="icon-twitter"></i></a></li>
+                <li><a href=""><i class="icon-facebook"></i></a></li>
+                <li><a href=""><i class="icon-dribbble"></i></a></li>
+                <li><a href=""><i class="icon-linkedin"></i></a></li>
+                <li><a href=""><i class="icon-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="/static/js/jquery.nicescroll.min.js"></script>
+        <script type="text/javascript">		
+			 $(document).ready(function() {
+				$('#simple-menu').sidr({
+				side: 'right'
+			});
+			});
+			$('.responsive-menu-button').sidr({
+				name: 'sidr-main',
+				source: '#navigation',
+				side: 'right'
+
+				});
+			$(document).ready(
+			function() {
+			$("html").niceScroll({cursorborder:"0px solid #fff",cursorwidth:"5px",scrollspeed:"70"});
+			}
+			);
+		</script>
+</body>
+</html>
