@@ -10,6 +10,9 @@ Missing values please leave blank. This tool is tolerant of missing values. Note
 # Model training
 The pretrained model is stored in 'MCDM.model' that was trained on 3,008 (OC n=714, Control n=2,294) patients' lab tests from TJH in China. 
 
+# Model validation
+This tool has been validated on two external validation sets, including 5,621 (OC n=447, Control n=5,174) patients' lab tests from WHZJU, and 2,350 (OC n=399, Control n=1,951) patients' lab tests from SYSUCC in China. 
+
 # Screenshot
 ![image](https://user-images.githubusercontent.com/131331281/233329985-1f32a9ab-242a-4ca2-b1aa-f02d3cff00a2.png)
 
