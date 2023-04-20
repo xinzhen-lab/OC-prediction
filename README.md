@@ -47,6 +47,5 @@ importlib-metadata==4.8.2
 Pillow==8.4.0
 
 # Usage
-run app.py
-Click the http://127.0.0.1:5000/ on the output window to run the tool
+run app.py, then click the http://127.0.0.1:5000/ link on the output window to launch the tool on your local browser.
 ![image](https://user-images.githubusercontent.com/131331281/233333144-6dcc19c0-9c8a-4b1f-b8db-9657c23d687e.png)
