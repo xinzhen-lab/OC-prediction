@@ -5,7 +5,10 @@ This tool is developed and validated based on the data of three cohorts (with 20
 [1] Q He, X Li, DWN Kim, X Jia, X Gu, X Zhen, L Zhou: Feasibility study of a multi-criteria decision-making based hierarchical model for multi-modality feature and multi-classifier fusion: Applications in medical prognosis prediction. Information Fusion 2020, 55:207-219.(https://doi.org/10.1016/j.inffus.2019.09.001)
 
 # Note
-Missing values please leave blank. This model is tolerant of missing values. Note that more accurate predictions might be expected only when sufficient lab test items are provided.
+Missing values please leave blank. This tool is tolerant of missing values. Note that more accurate predictions might be expected only when sufficient lab test items are provided.
+
+# Pretrained model
+The pretrained model is stored in 'MCDM.model' that was trained on patients' lab tests from TJH in China.
 
 # Screenshot
 ![image](https://user-images.githubusercontent.com/131331281/233329985-1f32a9ab-242a-4ca2-b1aa-f02d3cff00a2.png)
