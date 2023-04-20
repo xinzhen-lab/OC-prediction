@@ -7,8 +7,8 @@ This tool is developed and validated based on the data of three cohorts (with 20
 # Note
 Missing values please leave blank. This tool is tolerant of missing values. Note that more accurate predictions might be expected only when sufficient lab test items are provided.
 
-# Pretrained model
-The pretrained model is stored in 'MCDM.model' that was trained on patients' lab tests from TJH in China.
+# Model training
+The pretrained model is stored in 'MCDM.model' that was trained on 3,008 (OC n=714, Control n=2,294) patients' lab tests from TJH in China. 
 
 # Screenshot
 ![image](https://user-images.githubusercontent.com/131331281/233329985-1f32a9ab-242a-4ca2-b1aa-f02d3cff00a2.png)
