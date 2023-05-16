@@ -4,9 +4,6 @@ This tool is developed and validated based on the data of three cohorts (with 15
 # Reference
 [1] Q He, X Li, DWN Kim, X Jia, X Gu, X Zhen, L Zhou: Feasibility study of a multi-criteria decision-making based hierarchical model for multi-modality feature and multi-classifier fusion: Applications in medical prognosis prediction. Information Fusion 2020, 55:207-219.(https://doi.org/10.1016/j.inffus.2019.09.001)
 
-# Note
-Missing values please leave blank. This tool is tolerant of missing values. Note that more accurate predictions might be expected only when sufficient lab test items are provided.
-
 # Model training
 The pretrained model is stored in 'MCDM.model' that was trained on 3,007 (OC n=713, Control n=2,294) patients' lab tests from TJH in China. 
 
@@ -87,8 +84,14 @@ Pillow==8.4.0
 
 
 
-Make sure that all the required packages are installed, run the 'test.py' to check. if all required packages are properly installed, it will print "Negative probability: 42.7% Positive probability: 57.3%".
+
 
 # Usage
-Run 'app.py' and click the http://127.0.0.1:5000/ link on the output window to launch the tool on your local browser. 
+Make sure that all the required packages are installed, run the 'test.py' to check.  if all required packages are properly installed, it will give the Negative and Positive probabilities. Run 'app.py' and click the http://127.0.0.1:5000/ link on the output window to launch the tool on your local browser. 
 ![image](https://user-images.githubusercontent.com/131331281/233333144-6dcc19c0-9c8a-4b1f-b8db-9657c23d687e.png)
+
+
+# Note
+Missing values please leave blank. This tool is tolerant of missing values. Note that more accurate predictions might be expected only when sufficient lab test items are provided. 
+
+This code is still under development and periodic updates will be taken to resolve the bugs.
