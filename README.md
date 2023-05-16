@@ -17,9 +17,12 @@ This tool has been validated on two external validation sets, including 5,641 (O
 ![image](https://user-images.githubusercontent.com/131331281/233329985-1f32a9ab-242a-4ca2-b1aa-f02d3cff00a2.png)
 
 # Requirements
-python-3.7.12
+Python-3.7.12
+
 Flask==1.1.1
+
 gunicorn==20.0.4
+
 itsdangerous==1.1.0
 Jinja2==2.11.1
 joblib==0.16.0
