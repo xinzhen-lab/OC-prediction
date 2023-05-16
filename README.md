@@ -18,12 +18,19 @@ This tool has been validated on two external validation sets, including 5,641 (O
 
 # Requirements
 Python-3.7.12
+
 Flask==1.1.1
+
 gunicorn==20.0.4
+
 itsdangerous==1.1.0
+
 Jinja2==2.11.1
+
 joblib==0.16.0
+
 MarkupSafe==1.1.1
+
 Werkzeug==0.16.1
 
 setuptools==57.0.0
