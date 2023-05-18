@@ -95,3 +95,5 @@ Make sure that all the required packages are installed, run the 'test.py' to che
 Missing values please leave blank. This tool is tolerant of missing values. Note that more accurate predictions might be expected only when sufficient lab test items are provided. 
 
 This code is still under development and periodic updates will be taken to resolve the bugs.
+
+The MCF-v2.py contains codes for model training and validation. The current version is not the final version and may have bugs. Continue developement is ongoing and we will periodically update this file.
