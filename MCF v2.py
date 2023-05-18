@@ -831,7 +831,8 @@ if __name__ == '__main__':
     X = temp_data[:, 2:]
     y = temp_data[:, 1]
     DP = Data_processing()
-    DP.trainning_data_processing(X)
+    # DP.trainning_data_processing(X)
+    DP.fit(X)
     # joblib.dump(DP, 'F:/SUBJECT/ZHONG/EOC/Result/CLF_saving/data_processing/Processing.model')
 
     X = DP.transform(X, imp=True, boxcox=False, standered=False)
