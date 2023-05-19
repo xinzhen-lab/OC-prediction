@@ -11,7 +11,7 @@ The pretrained model is stored in 'MCDM.model' that was trained on 3,007 (OC n=7
 This tool has been validated on two external validation sets, including 5,641 (OC n=467, Control n=5,174) patients' lab tests from WHZJU, and 2,344 (OC n=393, Control n=1,951) patients' lab tests from SYSUCC in China. 
 
 # Screenshot
-![image](https://github.com/xinzhen-lab/OC-prediction/assets/131331281/29c9326a-7d11-4441-ba3b-317e60694735)
+![image](https://github.com/xinzhen-lab/OC-prediction/assets/131331281/ee2db312-67eb-4954-a878-f598eda8e104)
 
 
 # Requirements
