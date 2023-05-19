@@ -11,7 +11,8 @@ The pretrained model is stored in 'MCDM.model' that was trained on 3,007 (OC n=7
 This tool has been validated on two external validation sets, including 5,641 (OC n=467, Control n=5,174) patients' lab tests from WHZJU, and 2,344 (OC n=393, Control n=1,951) patients' lab tests from SYSUCC in China. 
 
 # Screenshot
-![image](https://user-images.githubusercontent.com/131331281/233329985-1f32a9ab-242a-4ca2-b1aa-f02d3cff00a2.png)
+![image](https://github.com/xinzhen-lab/OC-prediction/assets/131331281/29c9326a-7d11-4441-ba3b-317e60694735)
+
 
 # Requirements
 Python-3.7.12
@@ -88,8 +89,8 @@ Pillow==8.4.0
 
 # Usage
 Make sure that all the required packages are installed, run the 'test.py' to check.  if all required packages are properly installed, it will give the Negative and Positive probabilities. Run 'app.py' and click the http://127.0.0.1:5000/ link on the output window to launch the tool on your local browser. 
+![image](https://github.com/xinzhen-lab/OC-prediction/assets/131331281/9c64ce21-0c50-4f9a-a4a6-91cf4f3f3e69)
 
-![image](https://github.com/xinzhen-lab/OC-prediction/assets/131331281/d6ba4fcb-9e27-46e5-969c-e2e6d6b865d1)
 
 # Note
 Missing values please leave blank. This tool is tolerant of missing values. Note that more accurate predictions might be expected only when sufficient lab test items are provided. 
