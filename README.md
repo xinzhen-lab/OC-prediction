@@ -88,8 +88,8 @@ Pillow==8.4.0
 
 # Usage
 Make sure that all the required packages are installed, run the 'test.py' to check.  if all required packages are properly installed, it will give the Negative and Positive probabilities. Run 'app.py' and click the http://127.0.0.1:5000/ link on the output window to launch the tool on your local browser. 
-![image](https://user-images.githubusercontent.com/131331281/233333144-6dcc19c0-9c8a-4b1f-b8db-9657c23d687e.png)
 
+![image](https://github.com/xinzhen-lab/OC-prediction/assets/131331281/d6ba4fcb-9e27-46e5-969c-e2e6d6b865d1)
 
 # Note
 Missing values please leave blank. This tool is tolerant of missing values. Note that more accurate predictions might be expected only when sufficient lab test items are provided. 
